@@ -27,7 +27,7 @@ p {
   font-weight: bolder;
 }
 
-small {
+.nick-name {
   color: white;
   font-size: 1.5vw;
   font-family: "museo_sans700";
