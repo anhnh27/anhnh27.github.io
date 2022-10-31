@@ -22,7 +22,7 @@ p {
 
 .name {
   font-size: 2.25vw;
-  font-family: "museo_sans900";
+  font-family: "museo_sans700";
   color: #fff !important;
   font-weight: bolder;
 }
@@ -45,6 +45,13 @@ p {
   font-size: 16px;
   font-family: "museo_sans700";
   font-weight: 700;
+}
+
+.location {
+  margin-top: 14px;
+  margin-bottom: 28px;
+  font-size: 16px;
+  font-family: "museo_sans500";
 }
 
 .contact {
@@ -104,7 +111,7 @@ p {
 }
 
 .company-name {
-  margin-top: 16px;
+  margin-top: 32px;
   font-size: 20px;
   font-family: "museo_sans900";
   font-weight: bolder;
@@ -118,7 +125,13 @@ p {
   font-style: italic;
 }
 
+.position {
+  font-size: 16px;
+  font-family: "museo_sans300";
+}
+
 .job-title {
+  margin-top: 12px;
   font-size: 16px;
   font-family: "museo_sans900";
   font-weight: bolder;
