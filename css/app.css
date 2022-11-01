@@ -89,6 +89,7 @@ p {
   font-family: "museo_sans900";
   font-weight: bolder;
   text-transform: uppercase;
+  margin-bottom: 24px;
 }
 
 .cv-content {
