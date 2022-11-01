@@ -53,6 +53,7 @@ p {
   margin-bottom: 28px;
   font-size: 16px;
   font-family: "museo_sans500";
+  color: rgb(94, 97, 109) !important;
 }
 
 .contact {
