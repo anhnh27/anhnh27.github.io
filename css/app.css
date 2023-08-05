@@ -149,6 +149,12 @@ p {
   line-height: 20px;
 }
 
+.objective {
+  font-size: 14px;
+  font-family: "museo_sans300";
+  line-height: 22px;
+}
+
 ul li p::before {
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #009bd6; /* Change the color */
@@ -166,6 +172,13 @@ ul li p::before {
 .project-title {
   font-size: 14px;
   font-family: "museo_sans500";
+}
+
+.project-description {
+  font-size: 14px;
+  font-family: "museo_sans300";
+  line-height: 22px;
+  margin-top: 12px;
 }
 
 .hlink {
