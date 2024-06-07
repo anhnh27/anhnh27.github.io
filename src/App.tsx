@@ -181,6 +181,8 @@ const Projects = [
       "ReactJS",
       "Redux",
       "RTK Query",
+      "MUI",
+      "TailwindCSS",
       "ASP.Net Web API",
       "Azure DevOps",
       "MySql",
@@ -206,6 +208,9 @@ const Projects = [
       "ReactJS",
       "Redux",
       "RTK Query",
+      "MUI",
+      "TailwindCSS",
+      "React Hook Form",
       "NodeJS",
       "Express",
       "KnexJs",
@@ -331,7 +336,7 @@ const App: FC = () => {
         <div className="flex flex-col bg-[#e3d4c7] p-8">
           <img
             className="rounded-full w-52 h-52 object-cover border-2 border-[#9e9fa1] self-center"
-            src="./src/assets/images/profile.jpg"
+            src="/images/profile.jpg"
             alt="profile"
           />
           <ul className="list-none mt-8 w-full">
@@ -381,7 +386,7 @@ const App: FC = () => {
             <div className="text-left text-2xl border-b uppercase mt-12">
               Work Experience
             </div>
-            <div className="text-left mt-6">
+            <div className="text-left mt-6 mx-4">
               {Experiences.map((item, index) => (
                 <div key={index} className="mt-6">
                   <div className="text-xl font-semibold">{item.title}</div>
@@ -397,7 +402,7 @@ const App: FC = () => {
             <div className="text-left text-2xl border-b uppercase mt-12">
               Projects
             </div>
-            <div className="text-left mt-6">
+            <div className="text-left mt-6 mx-4">
               {Projects.map((item, index) => (
                 <div className="mt-6">
                   <div
