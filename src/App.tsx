@@ -98,25 +98,25 @@ const Skills = [
 ];
 
 const Experiences = [
-  // {
-  //   title: "Senior Software Developer",
-  //   company: "FPT Software Malaysia",
-  //   location: "Kuala Lumpur, Malaysia",
-  //   date: "2023 - present",
-  //   achievements: [
-  //     `Design & implement scalable web applications using AWS services.`,
-  //     `Led backend & frontend teams to deliver assigned projects.`,
-  //     `Implement CI/CD pipeline using Github Actions & Docker to deploy the application.`,
-  //     `Keep updated with the latest technologies & trends to improve the codebases.`,
-  //     `Research new technologies & tools to improve the development process.`,
-  //     `Enforce coding standards, code review, and mentor junior developers.`,
-  //   ],
-  // },
+  {
+    title: "Senior Software Developer",
+    company: "FPT Software Malaysia",
+    location: "Kuala Lumpur, Malaysia",
+    date: "2023 - present",
+    achievements: [
+      `Design & implement scalable & maintainable web applications & mobile app.`,
+      `Led backend & frontend teams to deliver assigned projects.`,
+      `Implement CI/CD pipeline using Github Actions & Docker to deploy the application.`,
+      `Keep updated with the latest technologies & trends to improve the codebases.`,
+      `Research new technologies & tools to improve the development process.`,
+      `Enforce coding standards, code review, and mentor junior developers.`,
+    ],
+  },
   {
     title: "Senior Mobile Developer",
     company: "HammerTech Technology",
     location: "Melbourne, Australia",
-    date: "2022 - present",
+    date: "2022 - 2023",
     achievements: [
       `Revamp the mobile app codebase, splitting code by modules, cleaning up technical debts.`,
       `Migrate ASP.Net MVC 5 web application to ReactJS + ASP.Net Web API.`,
@@ -171,6 +171,57 @@ const Experiences = [
 ];
 
 const Projects = [
+  {
+    name: "real.petronas.com",
+    description: `An internal system of Petronas ICT to manage headcounts & staff movement, 
+    report and search occupants for particular office or plant. System also provide the evacuation module, to keep track evacuation status and 
+    produce the evacation report.`,
+    icon: "https://www.contactcenterworld.com/images/company/PETRONAS-ICT-Sdn-Bhd-1200px-logo.png",
+    stacks: [
+      "ReactJS",
+      "Redux",
+      "RTK Query",
+      "ASP.Net Web API",
+      "Azure DevOps",
+      "MySql",
+      "Jest",
+      "React Testing Library",
+    ],
+    responsibilities: [
+      `Design and implement the frontend architecture and interactive features to support user interface concepts.`,
+      `Implement the CI/CD pipeline using Azure DevOps to automate auto deployment process.`,
+      `Develop and maintain the API endpoints using ASP.Net Web API.`,
+      `Studying current system, and propose the new system architecture to improve the performance and user experience.`,
+    ],
+  },
+  {
+    name: "sapot.co",
+    description: `We met each other through a program called SEEd.Lab. 
+    SEEd.Lab is a joint initiative by PETRONAS and Tata Consultancy Services (TCS) to develop young talents 
+    to form sustainable and scalable social enterprises. Through training and guidance from SEEd.Lab, 
+    we formulate our solution through rigorous iterations based on data from potential users to provide accessible 
+    and trustable mental health services for young adults.`,
+    icon: "https://sapot.co/assets/round_logo-4d750c78.svg",
+    stacks: [
+      "ReactJS",
+      "Redux",
+      "RTK Query",
+      "NodeJS",
+      "Express",
+      "KnexJs",
+      "MySql",
+      "AWS EC2, S3, RDS, Cloudfront, Load Balancer, Route 53, Cognito, SES",
+      "Docker",
+      "Jest",
+      "React Testing Library",
+    ],
+    responsibilities: [
+      `Collaborate with the product owner to gathering requirements and create high level design.`,
+      `Buiding the code structure, and create core & common components to support development for backend, frontend and mobile teams.`,
+      `Making technical desicion, hands-on coding, coordinating backend & frontend and mobile team to make sure the development smoothly.`,
+      `Create and maintain CI/CD pipeline using Github Actions & Docker to deploy the application.`,
+    ],
+  },
   {
     name: "HT Inspection",
     description: `Eliminate paper and spreadsheets with one digital platform for
